@@ -1,9 +1,13 @@
 #include<iostream>
+using namespace std;
+
+double summ(double a,double b) {
+	return a + b;
+}
 int main() {
-	int a, b, summ;
-	std::cin >> a;
-	std::cin >> b;
-	summ = a + b;
-	std::cout << summ;
+	double a, b;
+	cin >> a;
+	cin >> b;
+	cout << summ(a, b) << endl;
 	return 0;
 }
